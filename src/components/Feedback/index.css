@@ -1,0 +1,115 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .feedback-card {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .feedback-card {
+    padding: 50px;
+  }
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-heading {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+}
+
+@media (min-width: 992px) {
+  .question-heading {
+    font-size: 30px;
+  }
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji-image {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 992px) {
+  .emoji-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.emoji-name {
+  font-size: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .emoji-name {
+    font-size: 12px;
+  }
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-heading {
+  text-align: center;
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.love-image {
+  width: 60px;
+  height: 50px;
+}
+
+.thankyou-description {
+  text-align: center;
+  font-size: 15px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
